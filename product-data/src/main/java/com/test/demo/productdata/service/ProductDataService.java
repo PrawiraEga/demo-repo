@@ -30,7 +30,6 @@ public class ProductDataService {
         ProductDataResponse response = new ProductDataResponse();
         ProductDataEntity entity = new ProductDataEntity();
         ProductDataRequest requestResp = dataRequest;
-//        String fileResponse;
         Date expDate;
 
         if (requestResp != null) {
@@ -50,28 +49,6 @@ public class ProductDataService {
         } else {
             throw new Exception();
 
-        }
-
-        try {
-
-
-            /*if (!dataRequest.getFile().isEmpty()) {
-                fileResponse = fileUploadService.uploadFile(dataRequest.getFile());
-                entity.setPicture(fileResponse);
-
-                entity = dataRepo.save(entity);
-                requestResp.setId(entity.getId());
-                response.setDataRequest(requestResp);
-                response.setMessage(fileResponse + " Successful Added");
-                return response;
-            } else {
-                response.setDataRequest(requestResp);
-                response.setMessage("No File Added");
-            }*/
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            response.setMessage("Data Fail To Save");
         }
 
         return response;
