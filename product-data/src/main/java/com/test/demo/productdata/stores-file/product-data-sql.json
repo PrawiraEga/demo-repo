@@ -1,0 +1,7 @@
+[{"product_id":1, "product_name":"produk satu", "qty":10, "picture":"gambar_satu.jpg", "invalid_at":"2023-05-20", "has_active":1},
+ {"product_id":2, "product_name":"produk dua", "qty":12, "picture":"gambar_dua.jpg", "invalid_at":"2023-05-21", "has_active":1},
+ {"product_id":3, "product_name":"produk tiga", "qty":30, "picture":"gambar_tiga.jpg", "invalid_at":"2023-05-21", "has_active":1},
+ {"product_id":4, "product_name":"produk empat", "qty":25, "picture":"gambar_empat.jpg", "invalid_at":"2023-05-21", "has_active":1},
+ {"product_id":5, "product_name":"produk lima", "qty":35, "picture":"gambar_lima.jpg", "invalid_at":"2023-05-21", "has_active":0},
+ {"product_id":6, "product_name":"produk lima", "qty":35, "picture":"gambar_lima.jpg", "invalid_at":"2023-05-21", "has_active":1},
+ {"product_id":7, "product_name":"produk tujuh", "qty":5, "picture":"gambar_tujuh.jpg", "invalid_at":"2023-05-21", "has_active":1}]
